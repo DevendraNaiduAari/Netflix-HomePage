@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+ <meta charset=”UTF-8”>
+ <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+ <title>Netflix-like Homepage</title>
+ <style>
+ Body {
+ Margin: 0;
+ Padding: 0;
+ Font-family: Arial, sans-serif;
+ Background-color: #141414;
+ Color: #fff;
+ }
+ Header {
+ Background-color: #000;
+ Padding: 10px;
+ Text-align: center;
+ }
+ .container {
+ Max-width: 1200px;
+ Margin: 0 auto;
+ Padding: 20px;
+ }
+ .main-content {
+ Display: flex;
+ Flex-wrap: wrap;
+ Justify-content: space-around;
+ }
+ .movie {
+ Width: 200px;
+ Margin: 10px;
+ Overflow: hidden;
+ }
+ .movie img {
+ Width: 100%;
+ Height: auto;
+ }
+ Footer {
+ Background-color: #000;
+ Padding: 10px;
+ Text-align: center;
+ Position: fixed;
+ Bottom: 0;
+ Width: 100%;
+ }
+ </style>
+</head>
+<body>
+ <header>
+ <h1>Netflix-like Homepage</h1>
+ </header>
+ <div class=”container”>
+ <div class=”main-content”>
+ <div class=”movie”>
+ <img src=”movie1.jpg” alt=”Movie 1”>
+ <h3>Movie 1</h3>
+ </div>
+ <div class=”movie”>
+ <img src=”movie2.jpg” alt=”Movie 2”>
+ <h3>Movie 2</h3>
+ </div>
+ <!—Add more movie divs as needed →
+ </div>
+ </div>
+ <footer>
+ <p>&copy; 2023 Netflix-like Homepage</p>
+ </footer>
+</body>
+</html>
